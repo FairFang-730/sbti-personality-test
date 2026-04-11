@@ -4,8 +4,8 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## 🌐 Project Links | 项目链接
-- **English Version**: [Live Demo (Coming Soon)]()
-- **中文版本**: [在线测试 (即将上线)]()
+- **English Version**: [Play Now / Live Demo](https://sbti.doodleempires.wiki/en)
+- **中文版本**: [立即开始在线测试](https://sbti.doodleempires.wiki/)
 
 ---
 
