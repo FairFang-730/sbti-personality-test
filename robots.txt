@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+# 指引爬虫找到站点地图
+Sitemap: https://sbti.doodleempires.wiki/sitemap.xml
