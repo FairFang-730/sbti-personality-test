@@ -4,14 +4,14 @@
   <url>
     <loc>https://sbti.doodleempires.wiki/</loc>
     <lastmod>2026-04-12</lastmod>
-    <changefreq>monthly</changefreq>
+    <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <!-- 英文版页面 -->
   <url>
     <loc>https://sbti.doodleempires.wiki/en</loc>
     <lastmod>2026-04-12</lastmod>
-    <changefreq>monthly</changefreq>
+    <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
 </urlset>
