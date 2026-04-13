@@ -1,17 +1,17 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-US">
 
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="icon" href="https://doodleempires.wiki/favicon.ico">
   <link rel="canonical" href="https://sbti.doodleempires.wiki/en">
-  <title>SBTI Personality Test</title>
+  <title>SBTI Personality Test - The Ultimate MBTI Alternative</title>
   <meta name="description"
-    content="Based on the Big Five model with 15-dimension cross-calculation, matching 27 unique personality types. A fun 5-minute quiz to discover your true personality.">
-  <meta property="og:title" content="SBTI Personality Test — MBTI is outdated, SBTI is here">
+    content="Forget MBTI. The SBTI Personality Test uses a 15-dimension cross-calculation matrix to map you into 27 unique, brutally honest personality archetypes. Take the 5-minute quiz now.">
+  <meta property="og:title" content="SBTI Personality Test — MBTI is dead, SBTI is here">
   <meta property="og:description"
-    content="A fun 5-minute quiz with 15-dimension cross-calculation. 27 unique personality types await you.">
+    content="A brutally honest 5-minute quiz with 15-dimension cross-calculation. Discover which of the 27 unique internet-culture personalities you really are.">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://sbti.doodleempires.wiki/en">
   <meta property="og:image" content="https://sbti.doodleempires.wiki/image/og-cover.png">
@@ -40,14 +40,12 @@
     }
 
     body {
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
       background:
         radial-gradient(circle at top left, #f8fff8 0, #f6faf6 36%, #f2f7f3 100%);
       color: var(--text);
       min-height: 100vh;
     }
-
-
 
     .card {
       background: var(--panel);
@@ -144,7 +142,6 @@
       gap: 12px;
       margin-top: 22px;
     }
-
 
     button {
       border: 0;
@@ -341,6 +338,7 @@
       color: var(--accent-strong);
       margin-bottom: 8px;
       letter-spacing: .05em;
+      text-transform: uppercase;
     }
 
     .type-name {
@@ -478,7 +476,6 @@
       line-height: 1.7;
     }
 
-
     .result-layout {
       display: grid;
       gap: 18px;
@@ -549,52 +546,11 @@
       z-index: 1;
     }
 
-    .type-kicker {
-      font-size: 12px;
-      color: var(--accent-strong);
-      margin-bottom: 8px;
-      letter-spacing: .06em;
-    }
-
-    .type-name {
-      font-size: clamp(30px, 5vw, 48px);
-      line-height: 1.08;
-      letter-spacing: -0.03em;
-    }
-
-    .type-subname {
-      margin-top: 10px;
-      color: var(--muted);
-      font-size: 14px;
-      line-height: 1.8;
-    }
-
-    .match {
-      margin-top: 18px;
-      display: inline-flex;
-      align-items: center;
-      gap: 8px;
-      border-radius: 999px;
-      padding: 10px 14px;
-      background: var(--soft);
-      border: 1px solid var(--line);
-      color: var(--accent-strong);
-      font-weight: 700;
-      font-size: 14px;
-      line-height: 1.4;
-    }
-
     .analysis-box h3,
     .dim-box h3,
     .note-box h3 {
       font-size: 16px;
       margin-bottom: 12px;
-    }
-
-    .result-actions {
-      margin-top: 22px;
-      display: flex;
-      justify-content: flex-end;
     }
 
     .analysis-box p {
@@ -718,9 +674,6 @@
       .result-top {
         grid-template-columns: 1fr;
       }
-    }
-
-    @media (max-width: 860px) {
 
       .hero-grid,
       .result-hero {
@@ -848,10 +801,10 @@
     }
 
     .q-title {
-      font-size: 16px;
-      font-weight: 400;
+      font-size: 18px;
+      font-weight: 500;
       color: var(--text);
-      line-height: 1.7;
+      line-height: 1.6;
       margin-bottom: 20px;
       white-space: pre-wrap;
     }
@@ -906,6 +859,7 @@
       border-top: 1px solid var(--line);
       margin-top: 24px;
       padding-top: 24px;
+      width: 100%;
     }
 
     .share-title {
@@ -964,7 +918,6 @@
     .share-btn.copy {
       background: #6366f1;
     }
-
 
     .hero-minimal {
       display: flex;
@@ -1150,7 +1103,7 @@
       }
 
       .q-title {
-        font-size: 18px;
+        font-size: 17px;
       }
 
       .q-opt {
@@ -1160,21 +1113,17 @@
     }
   </style>
 
-  <!-- Google tag (gtag.js) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-B3X22FG0PX"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
     function gtag() { dataLayer.push(arguments); }
     gtag('js', new Date());
-
     gtag('config', 'G-B3X22FG0PX');
   </script>
 
-  <!-- Google Adsense -->
   <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6314698187176468"
     crossorigin="anonymous"></script>
 
-  <!-- Google 结构化数据 -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -1182,34 +1131,42 @@
     "mainEntity": [
       {
         "@type": "Question",
-        "name": "What is SBTI? How is it different from MBTI?",
+        "name": "What is the SBTI Personality Test? How does it differ from MBTI?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "SBTI (Self-Behavioral Type Indicator) is an entertainment-oriented personality test based on the Big Five model with 15-dimension cross-calculation, matching 27 unique personality types. Unlike MBTI's 4-dimension binary approach, SBTI uses a more detailed 3-level assessment (H/M/L) with hidden storylines and special trigger mechanisms."
+          "text": "The SBTI (Self-Behavioral Type Indicator) is an internet-culture personality test based on the Big Five model. It uses a 15-dimension cross-calculation to match you with 27 unique personality archetypes. Unlike the standard 4-dimension binary of MBTI, SBTI utilizes a precise 3-level assessment (High/Mid/Low) and features hidden trigger logic for brutally honest, highly relatable results."
         }
       },
       {
         "@type": "Question",
-        "name": "How long does the test take?",
+        "name": "How long does the SBTI quiz take?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "About 30 main questions + 1 hidden trigger question. Typically takes 5-8 minutes to complete. Questions are randomized each time."
+          "text": "The quiz features around 30 main questions plus hidden trigger logic. It typically takes about 5 to 8 minutes to complete. The questions are randomized on every load, keeping the experience fresh."
         }
       },
       {
         "@type": "Question",
-        "name": "Are the results accurate?",
+        "name": "Is the SBTI test result scientifically accurate?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "This test is purely for entertainment. It does not constitute any psychological, medical, or career advice. All personality descriptions are written in a humorous tone."
+          "text": "This test is designed purely for entertainment and deep self-reflection through humor. It is not professional psychological or medical advice. The descriptions use heavy sarcasm and internet slang. If it reads you like a book, that's purely a coincidence."
         }
       },
       {
         "@type": "Question",
-        "name": "Is my data uploaded?",
+        "name": "Will my personality data be uploaded or saved?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "No. All calculations run locally in your browser (pure frontend). We do not collect, store, or upload any answer data. Your personality secrets are known only to you."
+          "text": "Absolutely not. All 15-dimensional matrix calculations run entirely locally within your browser (client-side only). We do not collect, store, or transmit your answers. Your inner thoughts remain totally private."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What is an SBTI hidden personality and how do I trigger it?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "The SBTI test includes specific trap questions. If your answers trigger these hidden algorithms, the system bypasses standard matching and directly assigns you a secret, highly specific archetype. Just follow your gut instinct to see what you uncover."
         }
       }
     ]
@@ -1233,59 +1190,54 @@
 
       <section id="intro" class="screen active">
         <div class="hero card hero-minimal">
-          <h2>MBTI is outdated. Welcome to SBTI.</h2>
+          <h2>MBTI is dead. Welcome to SBTI.</h2>
           <div class="hero-actions hero-actions-single">
-            <button id="startBtn" class="btn-primary">Start Test</button>
+            <button id="startBtn" class="btn-primary">Start the Quiz</button>
           </div>
         </div>
 
         <div id="faqContainer" class="faq-container">
-          <h2>FAQ</h2>
+          <h2>Frequently Asked Questions</h2>
           <details class="faq-item">
             <summary>What is SBTI? How is it different from MBTI?</summary>
-            <div class="faq-content">SBTI (Self-Behavioral Type Indicator) is an entertainment-oriented personality test
-              based on the Big Five model with 15-dimension cross-calculation, matching 27 unique personality types.
-              Unlike MBTI's 4-dimension binary approach, SBTI uses a more detailed 3-level assessment (H/M/L) with
-              hidden storylines and special trigger mechanisms. It's not a psychology tool — it's purely for fun.</div>
+            <div class="faq-content">SBTI (Self-Behavioral Type Indicator) is a heavily sarcastic,
+              internet-culture personality test based on the Big Five psychological model. It runs a
+              15-dimension cross-calculation to match you with 27 unique, brutally honest personality
+              archetypes. Unlike MBTI's rigid 4-dimension binary, SBTI uses a more granular 3-level
+              assessment (High/Mid/Low) with hidden storylines and trap questions. It's not a clinical
+              tool — it's purely to call you out for fun.</div>
           </details>
           <details class="faq-item">
             <summary>How long does the test take?</summary>
-            <div class="faq-content">About 30 main questions + 1 hidden trigger question. Typically takes 5-8 minutes.
-              Questions are randomized each time for a slightly different experience.</div>
+            <div class="faq-content">There are roughly 30 main questions and 1 hidden trigger mechanic. It
+              usually takes 5-8 minutes. The deck is shuffled every time you play, so pacing might feel a
+              bit different on subsequent attempts.</div>
           </details>
           <details class="faq-item">
-            <summary>Are the results accurate?</summary>
-            <div class="faq-content">This test is purely for entertainment — no psychological, medical, or career advice
-              intended. All personality descriptions are written in a humorous tone. If the result fits you, that's a
-              coincidence; if it doesn't, that's also a coincidence.</div>
+            <summary>Are the results actually accurate?</summary>
+            <div class="faq-content">This test is strictly for entertainment and roasting purposes. It is
+              not medical, psychological, or career advice. All descriptions are drenched in irony and
+              internet slang. If your result hits uncomfortably close to home, that's just a crazy
+              coincidence.</div>
           </details>
           <details class="faq-item">
-            <summary>Is my data uploaded?</summary>
-            <div class="faq-content">No. All calculations run locally in your browser (pure frontend). We do not
-              collect, store, or upload any answer data. Your personality secrets are known only to you.</div>
+            <summary>Is my data being tracked or uploaded?</summary>
+            <div class="faq-content">Nope. Every single calculation runs locally in your browser (pure
+              frontend JS). We don't collect, store, or upload any of your answers. Your existential dread
+              is perfectly safe with you.</div>
           </details>
           <details class="faq-item">
-            <summary>What is a hidden personality? How to trigger it?</summary>
-            <div class="faq-content">The test contains 1 special trigger question. If your answer meets certain
-              conditions, the system bypasses normal matching and assigns you a hidden personality directly. The exact
-              trigger conditions are secret — just follow your instincts.</div>
-          </details>
-          <details class="faq-item">
-            <summary>Does SBTI support MBTI cross-analysis?</summary>
-            <div class="faq-content">Yes! After completing the test, you can select your MBTI type (e.g., INFP, INTJ) on
-              the results page. The system generates an exclusive MBTI × SBTI cross-analysis. 16 MBTI types × 27 SBTI
-              types = 432 unique combinations.</div>
+            <summary>What is a "Hidden Personality" and how do I unlock it?</summary>
+            <div class="faq-content">The quiz contains a specific hidden trigger question. If you fall right
+              into its trap, the algorithm overrides the standard matrix and assigns you a secret
+              archetype immediately. The exact trigger conditions are classified—just answer honestly.
+            </div>
           </details>
           <details class="faq-item">
             <summary>Can I share my results?</summary>
-            <div class="faq-content">Yes. The results page provides a sharing feature. You can share your personality
-              type result to social media directly from the results page.</div>
-          </details>
-          <details class="faq-item">
-            <summary>Why do I get different results each time?</summary>
-            <div class="faq-content">Questions are randomized each time, and different pacing may affect your choices.
-              Also, if your dimension scores are near boundary values, small changes can match you to different
-              personality types. That's part of what makes the test fun.</div>
+            <div class="faq-content">Absolutely. Once you get your results, you can immediately share your
+              personality portrait directly to X/Twitter, Reddit, or Facebook to let your timeline know
+              what you truly are.</div>
           </details>
         </div>
       </section>
@@ -1294,86 +1246,90 @@
         <div id="questionDeck" class="question-deck"></div>
       </section>
 
-
       <section id="result" class="screen">
         <div class="result-wrap card">
           <div class="result-layout">
             <div class="result-top">
               <div class="poster-box" id="posterBox">
                 <img id="posterImage" class="poster-image" alt="Personality Result" loading="lazy" />
-                <div id="posterCaption" class="poster-caption">Gotcha, didn’t I?</div>
+                <div id="posterCaption" class="poster-caption">Read you like a book.</div>
               </div>
 
               <div class="type-box">
-                <div class="type-kicker" id="resultModeKicker">Your Core Type</div>
-                <div class="type-name" id="resultTypeName">CTRL（拿捏者）</div>
+                <div class="type-kicker" id="resultModeKicker">Your Core Archetype</div>
+                <div class="type-name" id="resultTypeName">CTRL (The Mastermind)</div>
                 <div class="match" id="matchBadge">92% Match</div>
-                <div class="type-subname" id="resultTypeSub">System notes will display here.</div>
+                <div class="type-subname" id="resultTypeSub">System diagnostics will display here.</div>
               </div>
             </div>
 
             <div class="analysis-box">
-              <h3>A Brief Analysis of this Type</h3>
+              <h3>The Brutal Truth</h3>
               <p id="resultDesc"></p>
             </div>
 
             <div class="dim-box">
-              <h3>15-Dimension Scoring</h3>
+              <h3>Your 15-Dimension Matrix</h3>
               <div id="dimList" class="dim-list"></div>
             </div>
 
             <div class="note-box">
-              <h3>Friendly Reminder</h3>
-              <p id="funNote">This test is strictly for fun. Do not use it as a medical diagnosis, interview benchmark,
-                dating guide, breakup excuse, seance ritual, fortune telling, or final verdict.</p>
+              <h3>Friendly Disclaimer</h3>
+              <p id="funNote">This test is strictly for roasting and entertainment. Please do not use it
+                as a medical diagnosis, an excuse to break up, a Tinder bio, or a substitute for
+                therapy.</p>
             </div>
 
             <details class="author-box">
-              <summary>A Note from the Author</summary>
+              <summary>A Word from the Creator</summary>
               <div class="author-content">
-                <p>本测试首发于b站up主蛆肉儿串儿（UID417038183），初衷是劝诫一位爱喝酒的朋友戒酒。</p>
-                <p>由于作者的人格是SHIT愤世者，所以平等的攻击了各位，在此抱歉！！不过我是一个绝世大美女，你们一定会原谅我，有B站的朋友们也可以关注我。</p>
-                <p>Given limited energy, I couldn’t perfectly balance utility and fun, so the explanations for some
-                  types are vague or completely inaccurate (e.g., a "Loser" might not really be a loser). Very sorry if
-                  offended!!</p>
-                <p>再鉴于时间精力有限，就随便搞了一个先这样玩玩，后续会慢慢完善修改的，总之好玩为主，还请不要用于盈利呀。</p>
+                <p>The original concept for this test was born out of a desperate attempt to roast a
+                  friend into quitting alcohol.</p>
+                <p>Since my own personality tested as "SHIT" (The Cynic), I have decided to aggressively
+                  attack everyone equally in these results. I apologize for nothing!! But honestly,
+                  I'm gorgeous, so you'll forgive me eventually.</p>
+                <p>Given my limited time, I couldn't perfectly balance the psychological framework with
+                  the sheer amount of shitposting required. Thus, some explanations are a bit vague or
+                  overly dramatic. If you got offended, well, take a chill pill.</p>
+                <p>This is a passion project heavily layered with internet culture. Have fun, laugh at
+                  your friends, and don't take it too seriously.</p>
               </div>
             </details>
           </div>
 
           <div class="result-actions">
-            <div style="display:flex; justify-content:center; gap:12px; flex-wrap:wrap; margin-bottom: 24px;">
-              <button id="restartBtn" class="btn-secondary">Retake Test</button>
+            <div
+              style="display:flex; justify-content:center; gap:12px; flex-wrap:wrap; margin-bottom: 24px; width: 100%;">
+              <button id="restartBtn" class="btn-secondary">Retake Quiz</button>
               <button id="toTopBtn" class="btn-primary">Back to Home</button>
             </div>
             <div class="share-section">
-              <div class="share-title">Share your personality portrait</div>
+              <div class="share-title">Expose your true self to the timeline</div>
               <div class="share-buttons">
-                <!-- X (Twitter) -->
                 <a href="javascript:void(0)" onclick="shareResult('twitter')" class="share-btn twitter"
                   title="Share on X">
                   <svg viewBox="0 0 24 24">
                     <path
-                      d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z" />
+                      d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"
+                      fill="white" />
                   </svg>
                 </a>
-                <!-- Facebook -->
                 <a href="javascript:void(0)" onclick="shareResult('facebook')" class="share-btn facebook"
                   title="Share on Facebook">
                   <svg viewBox="0 0 24 24">
                     <path
-                      d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z" />
+                      d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"
+                      fill="white" />
                   </svg>
                 </a>
-                <!-- Reddit -->
                 <a href="javascript:void(0)" onclick="shareResult('reddit')" class="share-btn reddit"
                   title="Share on Reddit">
                   <svg viewBox="0 0 24 24">
                     <path
-                      d="M12 0A12 12 0 0 0 0 12a12 12 0 0 0 12 12 12 12 0 0 0 12-12A12 12 0 0 0 12 0zm5.01 4.744c.688 0 1.25.561 1.25 1.25a1.25 1.25 0 0 1-1.25 1.25 1.25 1.25 0 0 1-1.25-1.25c0-.689.561-1.25 1.25-1.25zm-5.01 3.96c2.73 0 4.945 2.215 4.945 4.945h-9.89c0-2.73 2.215-4.945 4.945-4.945zm-5.01-3.96c.688 0 1.25.561 1.25 1.25a1.25 1.25 0 0 1-1.25 1.25 1.25 1.25 0 0 1-1.25-1.25c0-.689.561-1.25 1.25-1.25z" />
+                      d="M12 0A12 12 0 0 0 0 12a12 12 0 0 0 12 12 12 12 0 0 0 12-12A12 12 0 0 0 12 0zm5.01 4.744c.688 0 1.25.561 1.25 1.25a1.25 1.25 0 0 1-1.25 1.25 1.25 1.25 0 0 1-1.25-1.25c0-.689.561-1.25 1.25-1.25zm-5.01 3.96c2.73 0 4.945 2.215 4.945 4.945h-9.89c0-2.73 2.215-4.945 4.945-4.945zm-5.01-3.96c.688 0 1.25.561 1.25 1.25a1.25 1.25 0 0 1-1.25 1.25 1.25 1.25 0 0 1-1.25-1.25c0-.689.561-1.25 1.25-1.25z"
+                      fill="white" />
                   </svg>
                 </a>
-                <!-- Copy -->
                 <a href="javascript:void(0)" onclick="shareResult('copy')" class="share-btn copy" title="Copy Link">
                   <svg viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2.5" stroke-linecap="round"
                     stroke-linejoin="round">
@@ -1403,9 +1359,7 @@
         <a href="https://doodleempires.wiki/terms">Terms of Service</a>
       </div>
     </footer>
-
   </div>
-
 
   <script>
     const dimensionMeta = {
@@ -1418,35 +1372,36 @@
       A1: { name: 'A1 Worldview Tendency', model: 'Attitude Model' },
       A2: { name: 'A2 Rules & Flexibility', model: 'Attitude Model' },
       A3: { name: 'A3 Sense of Meaning', model: 'Attitude Model' },
-      Ac1: { name: 'Ac1 Motivation Orientation', model: 'Action Drive Model' },
-      Ac2: { name: 'Ac2 Decision Style', model: 'Action Drive Model' },
-      Ac3: { name: 'Ac3 Execution Mode', model: 'Action Drive Model' },
+      Ac1: { name: 'Ac1 Motivation Orientation', model: 'Action Drive' },
+      Ac2: { name: 'Ac2 Decision Style', model: 'Action Drive' },
+      Ac3: { name: 'Ac3 Execution Mode', model: 'Action Drive' },
       So1: { name: 'So1 Social Proactivity', model: 'Social Model' },
       So2: { name: 'So2 Interpersonal Boundaries', model: 'Social Model' },
-      So3: { name: 'So3 Expression & Authenticity', model: 'Social Model' }
+      So3: { name: 'So3 Authenticity', model: 'Social Model' }
     };
+
     const questions = [
       {
         id: 'q1', dim: 'S1',
-        text: 'I am not just a loser; I am a joker, a deadbeat. I’ve never been in a relationship in my life, completely cowardly and feeling inferior. My youth is just one fantasy after another, dreaming every day of having a girl to walk the streets with, shop together, and hang out. But the reality is I squandered my parents’ money, went to a garbage school, coasted through, and then got a dead-end job—someone with no ideals, no goals, and no skills. Every time I see you joking about losers online, I want to cry. I am a rat underground, peeking at the beautiful things above through the cracks of a sewer grate. Every time I see this, it damages my soul and compresses my survival space. I beg you bro, give clowns like us a way out. I really don’t want to soak my pillow with tears in broad daylight.',
+        text: "I'm not just a scrub, I'm a total clown, a deadbeat. Never been in a relationship, cowardly with zero self-esteem. My youth is just daydreaming about holding hands and going to the mall. Reality? I leeched off my parents, went to a trash college, and now work a dead-end job with absolutely no drive. Every time you guys roast 'losers' online, I literally wanna cry. I'm just a rat in the sewers peering at the beautiful surface world. Cut me some slack, bro. I really don't wanna soak my pillow with tears at 2 PM.",
         options: [
-          { label: 'This made me cry..', value: 1 },
-          { label: 'Wtf is this..', value: 2 },
-          { label: 'This isn’t me!', value: 3 }
+          { label: 'I am literally crying rn...', value: 1 },
+          { label: 'Tf is this copypasta...', value: 2 },
+          { label: 'This definitely ain\'t me!', value: 3 }
         ]
       },
       {
         id: 'q2', dim: 'S1',
-        text: 'I am not good enough. Everyone around me is better.',
+        text: "I always feel like I'm not good enough and everyone around me is winning at life.",
         options: [
-          { label: 'Indeed', value: 1 },
+          { label: 'Big mood', value: 1 },
           { label: 'Sometimes', value: 2 },
-          { label: 'No', value: 3 }
+          { label: 'Nah, I\'m built different', value: 3 }
         ]
       },
       {
         id: 'q3', dim: 'S2',
-        text: 'I have a very clear picture of who I truly am.',
+        text: 'I have a crystal clear understanding of who I truly am.',
         options: [
           { label: 'Disagree', value: 1 },
           { label: 'Neutral', value: 2 },
@@ -1455,7 +1410,7 @@
       },
       {
         id: 'q4', dim: 'S2',
-        text: 'I have something I am truly pursuing in my heart.',
+        text: 'Deep down, I know exactly what I am chasing in life.',
         options: [
           { label: 'Disagree', value: 1 },
           { label: 'Neutral', value: 2 },
@@ -1464,7 +1419,7 @@
       },
       {
         id: 'q5', dim: 'S3',
-        text: 'I must constantly climb higher and become stronger.',
+        text: 'I must constantly grind, level up, and become the absolute best version of myself.',
         options: [
           { label: 'Disagree', value: 1 },
           { label: 'Neutral', value: 2 },
@@ -1473,7 +1428,7 @@
       },
       {
         id: 'q6', dim: 'S3',
-        text: 'Others’ opinions mean absolutely zilch to me.',
+        text: "Other people's opinions of me mean absolutely zero.",
         options: [
           { label: 'Disagree', value: 1 },
           { label: 'Neutral', value: 2 },
@@ -1482,88 +1437,88 @@
       },
       {
         id: 'q7', dim: 'E1',
-        text: 'Your partner hasn’t texted back for 5 hours and says they had severe diarrhea. What do you think?',
+        text: 'Your partner leaves you on read for 5 hours and later texts: "Sorry, was fighting for my life on the toilet." Your reaction?',
         options: [
-          { label: 'No one has diarrhea for 5 hours. They must be hiding something.', value: 1 },
-          { label: 'Swinging between trust and doubt.', value: 2 },
-          { label: 'Maybe they really aren’t feeling well today.', value: 3 }
+          { label: 'Nobody poops for 5 hours. They are definitely hiding something.', value: 1 },
+          { label: 'Suspicious, but I guess I\'ll let it slide.', value: 2 },
+          { label: 'Damn, hope their stomach feels better soon.', value: 3 }
         ]
       },
       {
         id: 'q8', dim: 'E1',
-        text: 'I often worry about being abandoned in a relationship.',
+        text: 'I constantly stress about getting ghosted or abandoned when I\'m in a relationship.',
         options: [
           { label: 'Yes', value: 1 },
           { label: 'Occasionally', value: 2 },
-          { label: 'No', value: 3 }
+          { label: 'Nope', value: 3 }
         ]
       },
       {
         id: 'q9', dim: 'E2',
-        text: 'I swear to god, I am genuine in every relationship I have!',
+        text: 'I swear to God, I am 100% genuine and serious in every relationship!',
         options: [
-          { label: 'Not really', value: 1 },
+          { label: 'Not really tbh', value: 1 },
           { label: 'Maybe?', value: 2 },
-          { label: 'Yes! (Proud and with a clear conscience)', value: 3 }
+          { label: 'Yes! (Flexes my clear conscience)', value: 3 }
         ]
       },
       {
         id: 'q10', dim: 'E2',
-        text: 'Your romantic partner is a person who respects the elderly, cares for the young, is gentle, honest, clean, bright, articulate, fluent, observant, knowledgeable, learned, approachable, kind, radiant, proactive, strikingly handsome, gorgeous... an absolute stunner. In this situation, you will?',
+        text: 'You start dating someone who is polite, gentle, clean, smart, funny, articulate, highly educated, approachable, ambitious, and an absolute 10/10 stunner. You would:',
         options: [
-          { label: 'No matter how great they are, I won’t get attached too deeply.', value: 1 },
-          { label: 'Somewhere between A and C.', value: 2 },
-          { label: 'I’d treasure them and probably become completely love-struck.', value: 3 }
+          { label: 'Keep my guard up. No matter how perfect they are, I won\'t get too attached.', value: 1 },
+          { label: 'Somewhere in the middle.', value: 2 },
+          { label: 'Worship the ground they walk on and instantly become down bad.', value: 3 }
         ]
       },
       {
         id: 'q11', dim: 'E3',
-        text: 'After getting into a relationship, your partner becomes very clingy. How do you feel?',
+        text: 'You get into a relationship and your partner becomes extremely clingy. How do you feel?',
         options: [
-          { label: 'That feels great', value: 1 },
-          { label: 'Whatever, it’s fine', value: 2 },
-          { label: 'I prefer keeping my independent space', value: 3 }
+          { label: 'I absolutely love that.', value: 1 },
+          { label: 'Whatever, I can adapt.', value: 2 },
+          { label: 'Hard pass. I need my personal space.', value: 3 }
         ]
       },
       {
         id: 'q12', dim: 'E3',
-        text: 'I highly value personal space in any relationship.',
+        text: 'I fiercely protect my personal space in any dynamic.',
         options: [
-          { label: 'I prefer depending on others and being depended on', value: 1 },
-          { label: 'It depends', value: 2 },
-          { label: 'Yes! (Speaks with absolute certainty)', value: 3 }
+          { label: 'Actually, I prefer co-dependency.', value: 1 },
+          { label: 'It really depends on the vibe.', value: 2 },
+          { label: '100% yes. Stay out of my swamp.', value: 3 }
         ]
       },
       {
         id: 'q13', dim: 'A1',
-        text: 'Most people are kind-hearted.',
+        text: 'Deep down, most people are good.',
         options: [
-          { label: 'Actually, evil hearts are more common than hemorrhoids in this world.', value: 1 },
-          { label: 'Maybe.', value: 2 },
-          { label: 'Yes, I am willing to believe there are more good people.', value: 3 }
+          { label: 'Wrong. Evil people are more common than hemorrhoids.', value: 1 },
+          { label: 'I guess?', value: 2 },
+          { label: 'Yes, I choose to believe humanity is mostly kind.', value: 3 }
         ]
       },
       {
         id: 'q14', dim: 'A1',
-        text: 'You are walking down the street, and an ultra-cute little girl bounds over to you (cute from the front, from the side, cute taken on Apple, Vivo, Huawei, OPPO—just exceptionally cute) and hands you a lollipop. What goes through your mind?',
+        text: 'You are walking down the street and an incredibly adorable toddler bounds over and hands you a lollipop. What goes through your head?',
         options: [
-          { label: 'Aww she’s so sweet and cute! Giving ME a lollipop!', value: 3 },
-          { label: 'Look totally clueless and scratch my head', value: 2 },
-          { label: 'Maybe this is a new type of scam? Better walk away.', value: 1 }
+          { label: 'Awww, that is the sweetest thing ever! My heart is melting.', value: 3 },
+          { label: 'Just stand there looking confused.', value: 2 },
+          { label: 'Is this some new TikTok prank or scam? I\'m walking away.', value: 1 }
         ]
       },
       {
         id: 'q15', dim: 'A2',
-        text: 'Finals are coming. Night study is mandatory, asking for leave costs points... but your crush invites you to play PUBG. What do you do?',
+        text: 'Finals are coming. Study hall is mandatory and skipping deducts your grade. But your absolute crush invites you to hop on a game of Fortnite/Valorant right now. What\'s the move?',
         options: [
-          { label: 'Skip it! It’s just one time!', value: 1 },
-          { label: 'Let’s just ask for leave.', value: 2 },
-          { label: 'Exams are closing in, why would I go.', value: 3 }
+          { label: 'Skip study hall! YOLO!', value: 1 },
+          { label: 'I\'ll try to forge a doctor\'s note to get out of it.', value: 2 },
+          { label: 'Finals are literally tomorrow, why would I play games?', value: 3 }
         ]
       },
       {
         id: 'q16', dim: 'A2',
-        text: 'I like breaking the rules and dislike being restricted.',
+        text: 'I thrive on breaking the rules and absolutely despise being micromanaged.',
         options: [
           { label: 'Agree', value: 1 },
           { label: 'Neutral', value: 2 },
@@ -1572,7 +1527,7 @@
       },
       {
         id: 'q17', dim: 'A3',
-        text: 'I usually have a goal when doing things.',
+        text: 'Everything I do is driven by a clear, calculated goal.',
         options: [
           { label: 'Disagree', value: 1 },
           { label: 'Neutral', value: 2 },
@@ -1581,16 +1536,16 @@
       },
       {
         id: 'q18', dim: 'A3',
-        text: 'Suddenly one day, I realized life has no f**king meaning at all. Humans are just controlled by desires like animals, purely dictated by hormones. We eat when hungry, sleep when tired, and want to mate when aroused—we’re really no different from pigs and dogs.',
+        text: "One day it hit me: Life is f*cking meaningless. We're just meat sacks controlled by hormones. Eat when hungry, sleep when tired, mate when horny. We are literally no different from pigs and dogs.",
         options: [
-          { label: 'That’s exactly it.', value: 1 },
+          { label: 'Honestly? Based. That is exactly it.', value: 1 },
           { label: 'Maybe yes, maybe no.', value: 2 },
-          { label: 'This is absolute nonsense', value: 3 }
+          { label: 'That is the most edgy, nihilistic garbage I\'ve ever heard.', value: 3 }
         ]
       },
       {
         id: 'q19', dim: 'Ac1',
-        text: 'I do things mainly to achieve results and progress, not to avoid trouble and risk.',
+        text: 'I take action strictly to win and level up, not to just play it safe and avoid trouble.',
         options: [
           { label: 'Disagree', value: 1 },
           { label: 'Neutral', value: 2 },
@@ -1599,16 +1554,16 @@
       },
       {
         id: 'q20', dim: 'Ac1',
-        text: 'You are sitting on the toilet constipated (for 30 minutes already). You can’t get it out and feel awful. At this moment, you are more likely to:',
+        text: 'You\'ve been sitting on the toilet fighting terrible constipation for 30 minutes. You\'re miserable. Right now, you are most likely to:',
         options: [
-          { label: 'Sit for another 30 mins, maybe a miracle will happen.', value: 1 },
-          { label: 'Slap your own butt hard and say: "Stupid butt, just poop!"', value: 2 },
-          { label: 'Use a laxative. Got to get it out quick.', value: 3 }
+          { label: 'Sit for another 30 mins and pray for a miracle.', value: 1 },
+          { label: 'Slap your own thigh and yell: "Drop the payload already!"', value: 2 },
+          { label: 'Immediately pop a laxative. Time is money.', value: 3 }
         ]
       },
       {
         id: 'q21', dim: 'Ac2',
-        text: 'I am quite decisive and dislike hesitating.',
+        text: 'I make decisions extremely fast. I hate overthinking.',
         options: [
           { label: 'Disagree', value: 1 },
           { label: 'Neutral', value: 2 },
@@ -1617,52 +1572,52 @@
       },
       {
         id: 'q22', dim: 'Ac2',
-        text: 'This question has no text. Please pick blindly.',
+        text: 'This question has no context. Just pick blindly.',
         options: [
-          { label: 'After overthinking, I feel I should pick A?', value: 1 },
-          { label: 'Ah, maybe B?', value: 2 },
-          { label: 'When in doubt, pick C?', value: 3 }
+          { label: 'After intense mental gymnastics, I feel like A is the trap, so A?', value: 1 },
+          { label: 'Uhhh, maybe B?', value: 2 },
+          { label: 'When in doubt, pick C.', value: 3 }
         ]
       },
       {
         id: 'q23', dim: 'Ac3',
-        text: 'When others say you have "strong execution skills," what does your inner voice say?',
+        text: 'When people praise you for having "insane execution skills", what does your inner voice say?',
         options: [
-          { label: 'I do have insane execution when I’m pushed to the absolute limit...', value: 1 },
-          { label: 'Ah, sometimes.', value: 2 },
-          { label: 'Yes, things are meant to be pushed forward.', value: 3 }
+          { label: 'I only get things done because the deadline induced a panic attack...', value: 1 },
+          { label: 'Eh, I have my moments.', value: 2 },
+          { label: 'Obviously. Stuff needs to get done, so I do it.', value: 3 }
         ]
       },
       {
         id: 'q24', dim: 'Ac3',
-        text: 'I often have plans when doing things, ____',
+        text: 'I love making plans, but ____',
         options: [
-          { label: 'But plans never keep up with changes.', value: 1 },
-          { label: 'Sometimes I finish them, sometimes I don’t.', value: 2 },
-          { label: 'I hate having my plans ruined.', value: 3 }
+          { label: 'My plans get destroyed by reality 5 minutes later.', value: 1 },
+          { label: 'I stick to them like 50% of the time.', value: 2 },
+          { label: 'I get visibly angry when someone ruins my schedule.', value: 3 }
         ]
       },
       {
         id: 'q25', dim: 'So1',
-        text: 'You met many online friends playing "Identity V" and are invited to a real-life meetup. Your thought is?',
+        text: 'You met a bunch of cool people on Discord playing games, and they invite you to an IRL meetup. You think:',
         options: [
-          { label: 'Talking online is fine, but meeting IRL makes me nervous.', value: 1 },
-          { label: 'Meeting them is fine, I’ll chat with whoever approaches.', value: 2 },
-          { label: 'I will dress up and chat passionately. Just in case... I mean, just in case?', value: 3 }
+          { label: 'Shit-talking online is one thing, but meeting IRL? Too much anxiety.', value: 1 },
+          { label: 'Sure, I\'ll go. If we vibe, we vibe.', value: 2 },
+          { label: 'I\'m dressing up, putting on cologne, and rizzing everyone up. You never know!', value: 3 }
         ]
       },
       {
         id: 'q26', dim: 'So1',
-        text: 'A friend brings their friend to hang out. Your most likely state is:',
+        text: 'Your friend brings a complete stranger to your hangout. Your natural state is:',
         options: [
-          { label: 'Naturally feel distant from a "friend’s friend", afraid it affects our dynamic.', value: 1 },
-          { label: 'Depends on them. If we vibe, we vibe.', value: 2 },
-          { label: 'A friend’s friend is my friend! I will chat enthusiastically.', value: 3 }
+          { label: 'Instantly defensive. It messes up the whole dynamic of the group.', value: 1 },
+          { label: 'Whatever, I\'ll just match their energy.', value: 2 },
+          { label: 'A friend of a friend is my friend! I\'m talking their ear off.', value: 3 }
         ]
       },
       {
         id: 'q27', dim: 'So2',
-        text: 'I interact with people using an electric fence. If they get too close, the alarm rings.',
+        text: 'I operate with an invisible electric fence around me. If people step too close, the alarms go off.',
         options: [
           { label: 'Agree', value: 3 },
           { label: 'Neutral', value: 2 },
@@ -1671,7 +1626,7 @@
       },
       {
         id: 'q28', dim: 'So2',
-        text: 'I crave close relationships with people I trust, acting like long-lost relatives.',
+        text: 'I crave intensely close relationships with people I trust, like we\'re essentially family.',
         options: [
           { label: 'Agree', value: 1 },
           { label: 'Neutral', value: 2 },
@@ -1680,16 +1635,16 @@
       },
       {
         id: 'q29', dim: 'So3',
-        text: 'Sometimes you clearly have a different, negative opinion on something, but you end up not saying it. Mostly because:',
+        text: 'Sometimes you have a highly critical, toxic opinion about something, but you keep your mouth shut. Why?',
         options: [
-          { label: 'This rarely happens to me.', value: 1 },
-          { label: 'Probably out of politeness or to save the relationship.', value: 2 },
-          { label: 'I don’t want others to figure out I have a dark mind.', value: 3 }
+          { label: 'Doesn\'t apply. I say whatever is on my mind.', value: 1 },
+          { label: 'Probably to keep the peace and not ruin the vibe.', value: 2 },
+          { label: 'Because I don\'t want people to realize how dark and unhinged my mind actually is.', value: 3 }
         ]
       },
       {
         id: 'q30', dim: 'So3',
-        text: 'I act like a different version of myself in front of different people.',
+        text: 'I basically code-switch and act like a totally different NPC depending on who I\'m talking to.',
         options: [
           { label: 'Disagree', value: 1 },
           { label: 'Neutral', value: 2 },
@@ -1697,27 +1652,28 @@
         ]
       }
     ];
+
     const specialQuestions = [
       {
         id: 'drink_gate_q1',
         special: true,
         kind: 'drink_gate',
-        text: 'What are your hobbies?',
+        text: 'What is your go-to hobby?',
         options: [
-          { label: 'Eating, drinking, sleeping', value: 1 },
-          { label: 'Arts & Culture', value: 2 },
-          { label: 'Drinking Alcohol', value: 3 },
-          { label: 'Working out', value: 4 }
+          { label: 'Doomscrolling, eating, and sleeping', value: 1 },
+          { label: 'Arts, culture, and aesthetics', value: 2 },
+          { label: 'Drinking until I feel something', value: 3 },
+          { label: 'Hitting the gym and getting swole', value: 4 }
         ]
       },
       {
         id: 'drink_gate_q2',
         special: true,
         kind: 'drink_trigger',
-        text: 'What is your attitude towards alcohol?',
+        text: 'What is your actual relationship with alcohol?',
         options: [
-          { label: 'A light drink is nice, but I can’t drink too much.', value: 1 },
-          { label: 'I pour baijiu into my thermos and drink it like water. Alcohol convinces me.', value: 2 }
+          { label: 'A light cocktail or beer is fine, but I know my limits.', value: 1 },
+          { label: 'I pour straight vodka into my Stanley cup. Alcohol is my religion.', value: 2 }
         ]
       }
     ];
@@ -1725,167 +1681,168 @@
     const TYPE_LIBRARY = {
       "CTRL": {
         "code": "CTRL",
-        "cn": "The Controller",
-        "intro": "Gotcha, didn’t I?",
-        "desc": "Congratulations, you have revealed the rarest personality in the nation. You are the natural rebel against the law of entropy! 99.99% of so-called successful people are merely poor imitators of you. The CTRL personality is a walking human task manager. What ordinary people call 'rules' are just base settings to you; what mortals call 'plans' are merely your spontaneous doodles. Having a CTRL friend means your life’s navigation system becomes precise and efficient. CTRL will hard-save your life right before it derails, dragging you back on track with irrefutable logic. They are your chaotic life’s ultimate backup disk."
+        "cn": "The Mastermind",
+        "intro": "Gotcha, didn't I?",
+        "desc": "Congrats, you've unlocked one of the rarest types. You are a walking human task manager and a natural rebel against entropy. 99.9% of 'successful' hustle-culture bros are just cheap knock-offs of you. To you, what mortals call 'rules' are just default settings to be tweaked, and their 'plans' are basically toddler crayon drawings. Having a CTRL friend means having an overpowered GPS for life. When their friends are about to derail, CTRL hits 'Ctrl+S', saves the file, and drags them back to reality using brutal, flawless logic. You are the ultimate emergency reboot button for a chaotic universe."
       },
       "ATM-er": {
         "code": "ATM-er",
         "cn": "The ATM",
-        "intro": "You think I have lots of money?",
-        "desc": "Congratulations, you’ve somehow tested for the rarest personality in the world. You might become a mystery in the financial world—an ATM-er doesn’t necessarily 'give away cash,' but they might be forever 'paying.' Paying time, paying energy, paying patience, paying what should have been a peaceful night. Like an old but sturdy ATM, what gets inserted is other people’s anxiety and trouble, and what comes out is the reassuring guarantee of 'It’s okay, I’m here.' You endure a cascading waterfall of demands with rock-solid reliability, only to sigh at the bill in the dead of night: Oh, my damn, misplaced sense of responsibility."
+        "intro": "Do I look made of money to you?",
+        "desc": "You somehow tested as the rarest anomaly. You are the financial district's greatest unsolved mystery. You might not literally hand out cash, but you are perpetually PAYING. Paying time, paying energy, paying your last shred of patience, and paying away a peaceful Friday night. You are a rugged, indestructible ATM—people insert their trauma and anxiety, and you print out a reassuring receipt that says 'It's fine, I got this.' Your life is a grand, unappreciated solo tab. In the dead of night, you look at your emotional bank statement and sigh at your own toxic level of responsibility."
       },
       "Dior-s": {
         "code": "Dior-s",
-        "cn": "The Slacker",
-        "intro": "Just waiting for my loser’s comeback.",
-        "desc": "Congratulations! You are not a loser, you are Diogenes’ spiritual heir. The 'Dior-s' (Loser) personality represents a thorough disdain for contemporary consumerism and success-driven PUA. They aren’t 'unambitious'; they’ve simply seen through the illusion that 'progress' is just a fancier prison cell. Dior-s has great wisdom. While others chase trends and get battered by the waves of the era, you are already sunbathing in your mental wooden barrel, achieving ultimate enlightenment. You believe in two ultimate physical and biological laws: 1. Lying down is better than standing; 2. When it’s time to eat, you eat."
+        "cn": "The Scrub",
+        "intro": "Just waiting on my villain arc.",
+        "desc": "Congrats, you are the spiritual successor to Diogenes the Cynic. Your archetype perfectly embodies the ultimate disdain for consumerism and corporate hustle culture. You aren't 'lazy'; you've just seen through the Matrix and realized that 'grinding' is just upgrading to a premium prison cell. While others are getting battered by economic waves chasing the next crypto pump, you're chilling in your mental barrel achieving enlightenment. You live by two sacred laws of thermodynamics: 1. Lying down is infinitely better than standing. 2. When the dinner bell rings, we feast."
       },
       "BOSS": {
         "code": "BOSS",
-        "cn": "The Leader",
-        "intro": "Give me the steering wheel.",
-        "desc": "The BOSS is someone who always holds the steering wheel. Even if the gas tank is red and the GPS is spewing nonsense, you will blankly state: 'Let me drive.' And then you actually arrive at the destination. The BOSS personality sees the world like a pro gamer looking at a tutorial section. Efficiency is your religion, order is your breath. You don’t just 'have a leader aura'; you are a human aura generator. Today you master a new language, tomorrow a professional certificate, the day after you plan to colonize Mars. People call you a try-hard, but you just look at them like weaklings: 'I’m not too harsh, you’re just too soft.'"
+        "cn": "The Tryhard",
+        "intro": "Move over, let me drive.",
+        "desc": "You are the person who aggressively snatches the steering wheel. Even if the gas tank is on E and the GPS is spinning, you'll deadpan 'I got this' and actually pull off a miracle drift into the parking lot. You view the real world like a pro-gamer blasting through the tutorial. Efficiency is your religion. You don't just have an 'aura', you are a walking EMP blast of productivity. Today you learn Python, tomorrow you get real estate certified, next week you colonize Mars. When people call you a sweat, you just look at them and think: 'I'm not going too hard, you're just incredibly soft.'"
       },
       "THAN-K": {
         "code": "THAN-K",
-        "cn": "The Grateful",
-        "intro": "I thank the heavens! I thank the earth!",
-        "desc": "Congratulations, you tested as the rarest personality in the nation. You should thank me! If you get stuck in a traffic jam on your way to work? You will say: 'I am grateful for this traffic, for it gives me more time to listen to this beautiful song and admire every face twisted by anxiety outside my window.' Yes, THAN-K has a mild temperament and an incredibly vast, forgiving heart. In their worldview, there are no bad people, only 'friends yet to be illuminated by the light of gratitude.' Having a THAN-K friend means having an inexhaustible radio tower of positive energy."
+        "cn": "The Saint",
+        "intro": "I thank the universe, I thank the earth!",
+        "desc": "Congrats, you are the rarest breed of wholesome. If you get stuck in a horrendous traffic jam, you'd unironically say: 'I'm so grateful for this delay, it gives me time to vibe to this podcast and appreciate the road rage of others.' You have an absurdly forgiving heart. In your eyes, there are no 'toxic' people, only 'misunderstood friends who haven't experienced enough love yet'. Being friends with you is like standing next to a 5G tower of relentless positive energy. You could find a profound aesthetic meaning in a patch of mold on the ceiling."
       },
       "OH-NO": {
         "code": "OH-NO",
-        "cn": "The Panic",
-        "intro": "Oh no! Why am I this type?!",
-        "desc": "'Oh no!' is not a scream of terror, but supreme wisdom. When an ordinary person sees a cup on the edge of a table, they see a cup. An OH-NO person sees a disaster epic sequence: water stain -> short circuit -> fire -> evacuation -> bankruptcy -> butterfly effect -> the end of the world. Then, accompanied by a soulful 'Oh, no!', they will lightning-fast move the cup to the center of the table and place a coaster under it. They have an almost paranoid respect for boundaries: yours is yours, mine is mine. All risks are strangled in the cradle."
+        "cn": "The Panic Button",
+        "intro": "Oh no! Why did I get this type?!",
+        "desc": "Your signature 'Oh no!' isn't a scream of terror, it's supreme tactical awareness. When a normal person sees a glass near a table edge, they see a glass. You see a disaster movie sequence: water spills -> fries laptop -> house burns down -> global economic collapse. Instantly, you dive to push the cup to the center and slap a coaster under it. You have a paranoid respect for risk management. All potential chaos is identified and neutralized before it even spawns. You are the final boss of preventing minor inconveniences."
       },
       "GOGO": {
         "code": "GOGO",
         "cn": "The Go-Getter",
-        "intro": "Go-go-go~ Let’s go",
-        "desc": "Research shows that the brain structure of GOGO is fundamentally different from ordinary people. GOGO lives in an ultimate 'what you see is what you get' world. As long as I close my eyes, it is dark; as long as I spend my money, I have no money. Perfect logical loop. Unarguable. While others debate 'the chicken or the egg', GOGO has already made both into an 'Ultimate Chicken & Egg Rice Bowl'. They don’t 'solve problems', they 'clear to-do lists'. For them, there are only two states in the world: 'Completed', and 'About to be completed by me'."
+        "intro": "Gogogo~ we ride at dawn.",
+        "desc": "Brain scans confirm your hardware is built different. You live in a purely 'What You See Is What You Get' reality. Your logic is unassailable: If I close my eyes, it's night time. If I spend all my cash, I am broke. While philosophers debate the chicken or the egg, you already air-fried both and ate them for protein. You don't 'strategize' over problems, you aggressively delete them from your to-do list. In your universe, tasks only exist in two states: 'Done' and 'About to be vaporized by me'."
       },
       "SEXY": {
         "code": "SEXY",
-        "cn": "The Stunner",
-        "intro": "You are a natural-born stunner!",
-        "desc": "When you enter a room, lighting systems automatically recognize you as a natural stunner and dim the brightness to avoid wasting energy. When you smile, the humidity drops because water vapor coalesces into heart shapes in everyone’s eyes. Anyone is prone to an overdose of attention directed at you. Legend has it that if enough SEXY personalities gather, their combined charming energy can temporarily warp spacetime. You don’t even need to speak; your sheer existence alone is already like an overly glamorous poem."
+        "cn": "The Baddie",
+        "intro": "I know I'm a natural stunner.",
+        "desc": "When you walk into a room, the smart-lights automatically dim because your sheer presence is already wasting too much energy. Your smile literally drops the humidity in the room because everyone is sweating. You suffer from chronic main-character syndrome, and worst of all, you actually deserve it. Legend says if enough of your archetype gather in one club, the sheer concentration of charisma warps the spacetime continuum. You don't even have to try; your default resting state is just aggressively aesthetic."
       },
       "LOVE-R": {
         "code": "LOVE-R",
-        "cn": "The Romantic",
-        "intro": "Too much love, reality feels a bit barren.",
-        "desc": "The LOVE-R personality is like a rare mythical species surviving from ancient times. Your emotional processor isn’t binary; it’s rainbow-colored. A falling leaf isn’t 'Autumn is here', it’s a 13-act tragicomedy about reincarnation, sacrifice, and silent love. Your inner world is a theme park that never closes, and you spend your whole life looking for a soulmate who can read the park map and is willing to ride the merry-go-round with you until the end of the universe."
+        "cn": "The Hopeless Romantic",
+        "intro": "My heart is too full for this barren reality.",
+        "desc": "You belong in a museum next to the dinosaurs. Your emotional bandwidth isn't binary, it's rendered in 8K HDR. To a normal person, a dead leaf falling is just 'Fall is here.' To you, it's a 10-minute cinematic masterpiece about grief, letting go, and unrequited love. Your inner world is a 24/7 Disneyland, and you are spending your entire existence looking for a soulmate willing to buy a VIP pass and ride the emotional rollercoaster with you until the heat death of the universe."
       },
       "MUM": {
         "code": "MUM",
-        "cn": "The Mom",
-        "intro": "Maybe... can I call you mom...?",
-        "desc": "Congratulations, you picked the rarest Mum personality in China. Yes, before chaos was divided, before the first star burped, there was Mom. The underlying color of Mom is gentleness. They are excellent at perceiving emotions, possessing super empathy, knowing when to stop, and when to say 'forget it'. Mum is like a doctor, curing everyone’s unhappiness. Sadly, when Mum cries, the dosage of medicine she gives herself is always one size smaller than what she gives others. MUM’s gentleness towards herself often comes at a discount."
+        "cn": "The Mom Friend",
+        "intro": "Can I... can I call you mom?",
+        "desc": "Before the Big Bang even happened, the 'Mom Friend' was already there packing snacks for the universe. Your core code is pure empathy. You have psychic abilities to read the room, knowing exactly when to step in and when to tell someone 'Hey, it's okay to log off.' You are the designated healer for your friend group's mental health. The tragedy? When your own HP gets low, you refuse to use your potions on yourself. You dispense top-tier therapy to everyone but give yourself the absolute worst discount treatment."
       },
       "FAKE": {
         "code": "FAKE",
-        "cn": "The Shapeshifter",
-        "intro": "Humans are already gone.",
-        "desc": "SCP Foundation Emergency Report: SCP-CN-████ 'The Fake'. In social settings, The Fake is impeccable because they switch personality masks faster than switching mobile keyboards. One second it’s heart-to-heart bestie mode, the next second the boss arrives and they instantly switch to the calm and reliable employee mode. You think you made a friend who truly understands you? Wake up. You just luckily encountered a high-performance, well-disguised android. In the dead of night, FAKE takes off the masks one by one, only to find the face underneath is empty. It is these masks that make up their self."
+        "cn": "The Skinwalker",
+        "intro": "There is no real me left.",
+        "desc": "SCP Foundation Alert: We found the Shapeshifter. In social settings, you are completely flawless because you hot-swap your personality faster than a discord alt-account. One second you're matching the chaotic energy of your besties, the next second your boss walks in and you seamlessly render into 'Model Corporate Citizen'. People think they found a soulmate in you? Wake up. They just met a highly advanced chameleon. Late at night, you take off all your masks one by one, only to realize the void underneath is exactly what you are made of."
       },
       "OJBK": {
         "code": "OJBK",
         "cn": "The 'Whatever'",
-        "intro": "When I say whatever, I mean whatever.",
-        "desc": "Let’s face the rugged essence of the word: OJBK (O-J-B-K). This is no longer a personality; it’s a ruling philosophy. When mortals face the century’s dilemma of 'rice or noodles for lunch', their brains furiously burn calories. But the OJBK personality lightly spits out two words: 'Whatever works.' That isn’t indecisiveness; it’s telling you: your mortal choices mean nothing to the emperor. Why argue? Because debating the future of the universe with a paramecium is pointless."
+        "intro": "When I say whatever, I literally mean whatever.",
+        "desc": "Let's respect the sheer stoicism of your vibe. This isn't just a personality; it's a profound philosophy of Not Giving A F*ck. When mortals are having a mental breakdown deciding between tacos or pizza, you wave your hand and drop the ultimate decree: 'Whatever works.' It's not that you lack an opinion, it's that you view their petty choices as entirely beneath you. Why argue? Debating the fate of lunch with an NPC is a waste of your valuable idle animation time."
       },
       "MALO": {
         "code": "MALO",
-        "cn": "The Macaque",
-        "intro": "Life is a dungeon, and I’m just a macaque.",
-        "desc": "Friend, you are not 'young at heart', you simply haven’t evolved. Your soul is still stuck in that happy era of swinging on trees and getting starry-eyed at bananas. When our human ancestors descended from the trees to wear suits and ties, the ancestors of the MALO personality watched from a branch, scratched their butts, and squeaked in disdain. They saw through it all: 'civilization' is nothing but a boring, pay-to-win game. Ceilings are for hanging upside down. MALO is an unhinged brainstorm that fell out of a giant black hole."
+        "cn": "The Monke",
+        "intro": "Life is a simulation, and I'm just a monke.",
+        "desc": "Bro, you aren't 'young at heart', your DNA just straight up refused to evolve. Your soul is permanently stuck in the glorious era of swinging on vines and hoarding bananas. When early humans decided to walk upright and invent taxes, your ancestors stayed in the trees, scratched their ass, and laughed. You see civilization for what it is: a pay-to-win gacha game with terrible drop rates. Ceilings exist to be swung from. You are a chaotic glitch in the matrix that simply forgot to grow up."
       },
       "JOKE-R": {
         "code": "JOKE-R",
-        "cn": "The Clown",
-        "intro": "Turns out we were all clowns.",
-        "desc": "Please note, JOKE-R is not a 'person', but rather a joke wearing a human suit. You peel away one layer: a joke. Another layer: a punchline. You peel and peel until you find that at the very center... it’s empty, leaving only a faint echo saying: 'Ha, didn’t expect that, did ya?' JOKE-R is the designated hype person of social events. Everyone is laughing hysterically, and the one laughing the loudest is usually JOKE-R—using the loudest laugh to cover up the sound of a breaking heart."
+        "cn": "The Class Clown",
+        "intro": "Turns out, the circus was inside me all along.",
+        "desc": "You aren't a person, you are three memes trench-coated together to look like a human. Peel back the first layer: sarcasm. Peel back the next: a cursed TikTok reference. Peel all the way down to the core and it's completely empty, except for a faint echo whispering 'lmao'. You are the designated hype-man and DPS carry of any social interaction. Everyone is wheezing at your jokes, and you're laughing the loudest—mostly to drown out the crippling sound of your own existential dread."
       },
       "WOC!": {
         "code": "WOC!",
-        "cn": "The Holy Sh*",
-        "intro": "Wtf, why am I this type?",
-        "desc": "We have discovered a magical creature—the WOC! (Wtf!) person. They possess two completely independent operating systems: the 'Surface System', responsible for emitting loud noises like 'Holy shit!', 'Woah!', 'Huh?'; and the 'Background System', responsible for calmly analyzing: 'Ah, just as I expected.' A WOC! person only yells 'holy shit' and minds their own business, because they know that reasoning with idiots is like pushing mud up a wall—it wastes energy and gets your hands dirty."
+        "cn": "The Reactor",
+        "intro": "Holy sh*t, why am I this type?!",
+        "desc": "We have discovered an incredibly rare biological anomaly: The Gasper. You run on a dual-core processor. The frontend UI is exclusively designed to yell 'Holy Shit!', 'Bro ain't no way!', and 'WTF?!'. The backend server, however, is coldly calculating: 'Yep, completely saw that coming.' You are the ultimate spectator. You never intervene because you know that arguing with idiots is like wrestling a pig in the mud—you both get dirty, but the pig likes it. You just stand on the sidelines, grab popcorn, and drop a perfectly timed 'YOOOO'."
       },
       "THIN-K": {
         "code": "THIN-K",
-        "cn": "The Thinker",
-        "intro": "Deeply thinking for 100s.",
-        "desc": "Research shows THIN-K’s brain is fundamentally different. Your brain is in a prolonged state of thinking. You heavily scrutinize information, focusing on arguments, logic, potential bias, and maybe the 'author’s three-generation ideological background investigation report'. In this information explosion era, you never follow blindly. When others see you zoning out? Foolish. That’s your brain running a background defragmentation on all the files you downloaded today."
+        "cn": "The Overthinker",
+        "intro": "I've been staring at the wall for 4 hours.",
+        "desc": "Your brain operates on an architecture that completely alienates normal humans. You are trapped in a perpetual buffering state of deep analysis. You don't just read a tweet; you run a background check on the author's ideological timeline spanning three generations. In the era of fake news, you are the final boss of fact-checking. When people think you are 'spacing out' at a party? Idiots. You aren't spacing out. You are defragmenting your hard drive and archiving the micro-expressions of everyone in the room."
       },
       "SHIT": {
         "code": "SHIT",
         "cn": "The Cynic",
-        "intro": "This world is a piece of shxt.",
-        "desc": "Congratulations, SHIT is a rare personality in the universe. Saying 'shit' is not a complaint; it’s a mysterious ritual. Their behavior is an earth-shattering paradox. Mouth: 'This project is literally shit.' Hands: Silently opens Excel and builds flawless models. Mouth: 'These coworkers are shit.' Hands: Fixes their mess perfectly while annoyed. Mouth: 'The world is shit, just destroy it.' Hands: Wakes up at 7 AM, rides the shit subway to do that shit job. Don’t worry, they are just blowing the horn to save the world."
+        "intro": "This world is a literal dumpster fire.",
+        "desc": "Congrats, you are the rarest configuration of pure salt. Calling everything 'shit' isn't complaining, it's your daily grounding ritual. Your existence is a hilarious paradox. Mouth: 'This project is absolutely chalked.' Hands: Flawlessly writes 400 lines of code. Mouth: 'I hate everyone here.' Hands: Stays up till 3 AM fixing your coworkers' garbage mistakes. Mouth: 'Just nuke the planet.' Hands: Wakes up at 7 AM, grabs a coffee, and commutes to save the company again. You are the grumpiest superhero to ever exist."
       },
       "ZZZZ": {
         "code": "ZZZZ",
         "cn": "The Possum",
-        "intro": "I’m not dead, I’m just sleeping.",
-        "desc": "Congratulations, you tested for the rarest playing-dead personality. You can ignore 99+ group messages, but when someone issues an ultimatum: '@all Half an hour until deadline', you suddenly awaken like a mummy from a millennium-old tomb, slowly type out 'Received', and in 29 minutes hand in a passing paper. Yes, until the 'deadline' appears, you just don’t explode. You prove the truth: sometimes doing nothing means making no mistakes."
+        "intro": "I'm not dead, my controller just disconnected.",
+        "desc": "You are the undisputed champion of the 'Ghosting' mechanic. You will actively ignore 99+ notifications in the group chat. But the absolute millisecond someone tags you with '@everyone 30 minutes left until the deadline', you reanimate from your sarcophagus, reply 'Bet', and deliver a passing-grade project with 3 seconds to spare. You run entirely on panic-induced adrenaline. You've proven the ultimate scientific theorem: If you literally do nothing, you can't make a mistake."
       },
       "POOR": {
         "code": "POOR",
-        "cn": "The Focused",
-        "intro": "I’m poor, but I’m laser-focused.",
-        "desc": "Congratulations, you tested for [POOR]. This 'poor' isn’t a wallet sentence; it’s resourceful re-allocation. Others scatter their energy like QR codes; you condense yours into a laser beam—wherever you point it, it starts to smoke. POOR’s world is simple: cancel the noise, go hard on what matters. Socializing, vanity, chasing clout? Sorry, no time. You aren’t lacking resources; you just poured a mine’s worth of resources into a single tunnel."
+        "cn": "The Laser-Focused",
+        "intro": "I might be broke, but my hyper-fixation is rich.",
+        "desc": "You got the [POOR] type, but it's not about your bank account. It's about your absolute refusal to distribute your energy. While normies scatter their attention like pop-up ads, you focus yours into an industrial laser beam. The noise of the world? Cancelled. Clout chasing and small talk? Blocked. You just dump 100% of your stat points into one specific hyper-fixation until you master it. You aren't lacking resources; you just dug a 10,000-foot mine shaft in one exact spot."
       },
       "MONK": {
         "code": "MONK",
-        "cn": "The Monk",
-        "intro": "No worldly desires.",
-        "desc": "While others comprehend the tangled web of love and hate in karaokes, the MONK comprehends the Dao at home. MONK has seen through the mortal realm and doesn’t want idle people to disturb their peace. MONK’s personal space is their barrier, their sacred absolute domain. Trespassers will feel a suffocating sensation from the depths of their soul. MONKs are not sticky or clingy, because in their worldview, everything has an independent orbit. Planets maintain harmony across millions of miles; why can’t humans?"
+        "cn": "The Zen Master",
+        "intro": "I have ascended past mortal cringe.",
+        "desc": "While others are screaming crying throwing up over club drama, you are sitting in your room comprehending the fabric of reality. You have seen through the matrix and kindly ask that NPCs stay out of your render distance. Your bedroom is a sacred temple with a massive 'Do Not Disturb' sign. Anyone who breaches your aura gets hit with an intense wave of psychic damage. You don't cling to people because you know planets stay in orbit by staying millions of miles apart. Why can't humans do the same?"
       },
       "IMSB": {
         "code": "IMSB",
-        "cn": "The Fool",
-        "intro": "Seriously? Am I really an idiot?",
-        "desc": "Congratulations! You are completely outside the human category! You tested for the million-year [IMSB / I’m a Fool] personality. Two ultimate warriors fight to the death in your brain. One says: 'Screw it, let’s go! Talk to them!' The other says: 'Why would they like you? You’re setting yourself up for humiliation!' Result: you stare at their back until they disappear, then google 'how to overcome social anxiety.' You’re not dumb; your inner monologue is just longer than the entire Marvel Cinematic Universe."
+        "cn": "The Dumbass",
+        "intro": "Wait... am I actually an idiot?",
+        "desc": "You literally crashed the human parameter scale. You are the million-to-one 'Dumbass' archetype. Inside your brain, two gladiators fight 24/7. Gladiator A screams: 'F*ck it we ball! Go talk to them!' Gladiator B counters: 'Are you braindead? They are way out of your league, you'll look like a creep!' The result? You stand completely still, stare until they leave, and then go home to google 'Am I neurodivergent?'. You aren't actually dumb, your internal monologue just has more filler episodes than a 2000s anime."
       },
       "SOLO": {
         "code": "SOLO",
-        "cn": "The Loner",
-        "intro": "I’m crying, why am I a loner?",
-        "desc": "Congratulations, you tested for the [SOLO] personality. Don’t cry just yet; a king’s coronation is usually a solo event. Solos have low self-worth and thus proactively distance themselves, building a Great Wall called 'Don’t Touch Me' around their soul. Every brick is a past wound. A SOLO is like a hedgehog hiding all its soft spots, facing the world with its hardest spikes. Those spikes aren’t an attack; they are unsaid pleas of 'Don’t come closer, I’m afraid you’ll get hurt too' and 'Please, don’t leave me.'"
+        "cn": "The Lone Wolf",
+        "intro": "Damn... why am I a loner?",
+        "desc": "Congrats on pulling the rarest 'Lone Wolf' drop. Don't cry—boss fights are usually solo anyway. Your self-worth is a bit nerfed, so you preemptively push people away, building a massive firewall named 'Don't F*cking Touch Me' around your heart. Every brick in that wall is a past betrayal. You are a hedgehog aiming your spikes at the world. But those spikes aren't weapons; they are just a desperate translation of 'Please don't get too close, I can't handle getting hurt again.'"
       },
       "FUCK": {
         "code": "FUCK",
-        "cn": "The Rebel",
-        "intro": "F*ck! What personality is this?",
-        "desc": "Congratulations! You are completely outside the human category! You tested for the [FUCK]. In human civilization, a super-resilient humanoid weed has emerged that cannot be killed by herbicides—The Rebel. In the FUCK worldview, worldly rules are absolutely meaningless. Their emotional switch is a physical toggle: FUCK YEAH and FUCK OFF. FUCK doesn’t just chase immediate pleasure; they chase the raw vitality crashing around inside their body. When everyone is domesticated into docile poultry, FUCK is the last howl of the wolf in the wilderness."
+        "cn": "The Menace",
+        "intro": "F*ck! What kind of result is this?",
+        "desc": "You broke the algorithm. You are the unkillable weed growing out of the concrete of society: The Menace. To you, societal norms are just suggestions for cowards. Your emotional dashboard only has two massive buttons: 'FUCK YEAH' and 'FUCK OFF'. You don't just chase dopamine, you chase the raw, chaotic adrenaline of feeling alive. While everyone else is getting domesticated into corporate drones, you are the last feral wolf howling in the Wendy's parking lot at 3 AM."
       },
       "DEAD": {
         "code": "DEAD",
-        "cn": "The Numb",
-        "intro": "Am I... still alive?",
-        "desc": "Congratulations, you tested for the rarest personality. DEAD can also stand for: Don’t Expect Any Drives. The Dead have seen through meaningless philosophical ponderings and thus appear to have 'lost' interest in everything. They look at the world like a top-tier gamer who cleared all main quests, side quests, and hidden tasks, deleted their save, restarted 999 times, and finally realized: This game is just boring. Their existence is the most silent and thorough protest against this noisy world."
+        "cn": "The Dead Inside",
+        "intro": "Am I... actually alive right now?",
+        "desc": "You unlocked the ultimate nihilist archetype. 'DEAD' just means: Don't Expect Any Drives. You've skipped the cutscenes of life and realized none of this matters. You look at the world like a speedrunner who 100%'d the game 999 times, only to look at the screen and whisper: 'This game is actually trash.' You have transcended petty desires, drama, and ambitions. Your flatline existence is the loudest, most savage protest against this loud, annoying universe."
       },
       "IMFW": {
         "code": "IMFW",
         "cn": "The Hopeless",
-        "intro": "Am I really... trash?",
-        "desc": "Congratulations, you tested for an extremely rare 0.0001% population—[IMFW / I’m Trash]. The self-esteem of the Trash is usually brittle, lacking security, so they accurately seek out the strongest 'WiFi signal' around them—the most reliable person in their heart. Entering the life of a Trash is like entering a top-tier orchid greenhouse: it requires precise temperature control and daily verbal photosynthesis of 'I love yous'. Give them a candy, and they will give you a completely trusting, sparkly gaze back."
+        "intro": "Am I really... just trash?",
+        "desc": "You are the 0.0001% ultra-rare drop: The Hopeless. Your ego has the structural integrity of wet paper, and you are constantly scanning the room for the strongest 'Safe Person' WiFi signal to latch onto. Being friends with you is like maintaining an exotic terrarium: you require precise temperature control, strict humidity, and daily verbal reassurance that you aren't annoying. Give you a single compliment, and you will pledge your undying loyalty with big, sparkling anime eyes."
       },
       "HHHH": {
         "code": "HHHH",
-        "cn": "The Giggler",
-        "intro": "Hahahahahaha.",
-        "desc": "Congratulations! Because your brain circuits are far too peculiar, the standard library completely crashed. When the best match rate is below 60%, the system forcefully assigns you this—[HHHH - The Giggler]. What traits does this have? HAHAHAHAHAHA! Sorry, that’s the only trait. I’m sorry the author didn’t consider everything thoroughly! Hahahaha... laughing until I cried. How can anyone’s thought process be so novel?"
+        "cn": "The Troll",
+        "intro": "LMAOOOOOO.",
+        "desc": "Congratulations! Because your brain wiring is absolute chaos, the standard logic matrix had a stroke. When the system can't find a match above 60%, it rage-quits and dumps you here. What are your traits? HAHAHAHAHA. Sorry, that's literally it. The dev didn't account for someone answering questions like a complete psycho. Hahahaha... laughing through the pain. Honestly, your thought process is so unhinged it deserves an award."
       },
       "DRUNK": {
         "code": "DRUNK",
-        "cn": "The Drunkard",
-        "intro": "Strong liquor burns the throat, I must get drunk.",
-        "desc": "Why are you staggering? Why are your emotions always high? Why do you see double? Because what flows in your veins isn’t blood, it’s delicious Wuliangye! Or Jiangxiaobai! Or Maotai! Oh, beautiful Baijiu! It makes you confident at the dinner table and repentant hugging the toilet bowl. It made you the center of the universe... until 10 AM the next day, when your head feels like a cracked walnut. You finally realize the loud, table-slapping person last night was truly a Drunkard."
+        "cn": "The Boozehound",
+        "intro": "The liquor is calling the shots now.",
+        "desc": "Why is your ping so high? Why is your vision lagging? Because your bloodstream is currently sponsored by straight Vodka and bad decisions. Oh, the sweet nectar of the gods! It turns you into the undisputed main character at the bar, and a weeping philosopher hugging the toilet bowl at 3 AM. You thought you were the life of the party, until you wake up at 11 AM feeling like a flashbang went off in your skull. You finally realize the guy screaming karaoke last night was just a certified Boozehound."
       }
     };
+
     const TYPE_IMAGES = {
       "IMSB": "./image/IMSB.png",
       "BOSS": "./image/BOSS.png",
@@ -1917,186 +1874,112 @@
     };
 
     const NORMAL_TYPES = [
-      {
-        "code": "CTRL",
-        "pattern": "HHH-HMH-MHH-HHH-MHM"
-      },
-      {
-        "code": "ATM-er",
-        "pattern": "HHH-HHM-HHH-HMH-MHL"
-      },
-      {
-        "code": "Dior-s",
-        "pattern": "MHM-MMH-MHM-HMH-LHL"
-      },
-      {
-        "code": "BOSS",
-        "pattern": "HHH-HMH-MMH-HHH-LHL"
-      },
-      {
-        "code": "THAN-K",
-        "pattern": "MHM-HMM-HHM-MMH-MHL"
-      },
-      {
-        "code": "OH-NO",
-        "pattern": "HHL-LMH-LHH-HHM-LHL"
-      },
-      {
-        "code": "GOGO",
-        "pattern": "HHM-HMH-MMH-HHH-MHM"
-      },
-      {
-        "code": "SEXY",
-        "pattern": "HMH-HHL-HMM-HMM-HLH"
-      },
-      {
-        "code": "LOVE-R",
-        "pattern": "MLH-LHL-HLH-MLM-MLH"
-      },
-      {
-        "code": "MUM",
-        "pattern": "MMH-MHL-HMM-LMM-HLL"
-      },
-      {
-        "code": "FAKE",
-        "pattern": "HLM-MML-MLM-MLM-HLH"
-      },
-      {
-        "code": "OJBK",
-        "pattern": "MMH-MMM-HML-LMM-MML"
-      },
-      {
-        "code": "MALO",
-        "pattern": "MLH-MHM-MLH-MLH-LMH"
-      },
-      {
-        "code": "JOKE-R",
-        "pattern": "LLH-LHL-LML-LLL-MLM"
-      },
-      {
-        "code": "WOC!",
-        "pattern": "HHL-HMH-MMH-HHM-LHH"
-      },
-      {
-        "code": "THIN-K",
-        "pattern": "HHL-HMH-MLH-MHM-LHH"
-      },
-      {
-        "code": "SHIT",
-        "pattern": "HHL-HLH-LMM-HHM-LHH"
-      },
-      {
-        "code": "ZZZZ",
-        "pattern": "MHL-MLH-LML-MML-LHM"
-      },
-      {
-        "code": "POOR",
-        "pattern": "HHL-MLH-LMH-HHH-LHL"
-      },
-      {
-        "code": "MONK",
-        "pattern": "HHL-LLH-LLM-MML-LHM"
-      },
-      {
-        "code": "IMSB",
-        "pattern": "LLM-LMM-LLL-LLL-MLM"
-      },
-      {
-        "code": "SOLO",
-        "pattern": "LML-LLH-LHL-LML-LHM"
-      },
-      {
-        "code": "FUCK",
-        "pattern": "MLL-LHL-LLM-MLL-HLH"
-      },
-      {
-        "code": "DEAD",
-        "pattern": "LLL-LLM-LML-LLL-LHM"
-      },
-      {
-        "code": "IMFW",
-        "pattern": "LLH-LHL-LML-LLL-MLL"
-      }
+      { "code": "CTRL", "pattern": "HHH-HMH-MHH-HHH-MHM" },
+      { "code": "ATM-er", "pattern": "HHH-HHM-HHH-HMH-MHL" },
+      { "code": "Dior-s", "pattern": "MHM-MMH-MHM-HMH-LHL" },
+      { "code": "BOSS", "pattern": "HHH-HMH-MMH-HHH-LHL" },
+      { "code": "THAN-K", "pattern": "MHM-HMM-HHM-MMH-MHL" },
+      { "code": "OH-NO", "pattern": "HHL-LMH-LHH-HHM-LHL" },
+      { "code": "GOGO", "pattern": "HHM-HMH-MMH-HHH-MHM" },
+      { "code": "SEXY", "pattern": "HMH-HHL-HMM-HMM-HLH" },
+      { "code": "LOVE-R", "pattern": "MLH-LHL-HLH-MLM-MLH" },
+      { "code": "MUM", "pattern": "MMH-MHL-HMM-LMM-HLL" },
+      { "code": "FAKE", "pattern": "HLM-MML-MLM-MLM-HLH" },
+      { "code": "OJBK", "pattern": "MMH-MMM-HML-LMM-MML" },
+      { "code": "MALO", "pattern": "MLH-MHM-MLH-MLH-LMH" },
+      { "code": "JOKE-R", "pattern": "LLH-LHL-LML-LLL-MLM" },
+      { "code": "WOC!", "pattern": "HHL-HMH-MMH-HHM-LHH" },
+      { "code": "THIN-K", "pattern": "HHL-HMH-MLH-MHM-LHH" },
+      { "code": "SHIT", "pattern": "HHL-HLH-LMM-HHM-LHH" },
+      { "code": "ZZZZ", "pattern": "MHL-MLH-LML-MML-LHM" },
+      { "code": "POOR", "pattern": "HHL-MLH-LMH-HHH-LHL" },
+      { "code": "MONK", "pattern": "HHL-LLH-LLM-MML-LHM" },
+      { "code": "IMSB", "pattern": "LLM-LMM-LLL-LLL-MLM" },
+      { "code": "SOLO", "pattern": "LML-LLH-LHL-LML-LHM" },
+      { "code": "FUCK", "pattern": "MLL-LHL-LLM-MLL-HLH" },
+      { "code": "DEAD", "pattern": "LLL-LLM-LML-LLL-LHM" },
+      { "code": "IMFW", "pattern": "LLH-LHL-LML-LLL-MLL" }
     ];
+
     const DIM_EXPLANATIONS = {
       "S1": {
-        "L": "You strike yourself harder than others. Even when someone praises you, you first want to verify its authenticity.",
-        "M": "Your confidence fluctuates with the weather. You fly with the wind, and shrink against the storm.",
-        "H": "You have a solid estimate of yourself and won’t easily crumble over a random stranger’s comment."
+        "L": "You are your own worst hater. Even when someone gives you a genuine compliment, you fact-check it.",
+        "M": "Your confidence is tied to the weather. You soar when winning, but turtle up the second things get hard.",
+        "H": "You know your exact worth. You don't let random NPC comments ruin your day."
       },
       "S2": {
-        "L": "Your inner channel has a lot of static; you often loop endlessly figuring out 'who am I'.",
-        "M": "You usually recognize yourself, but occasionally your emotions temporarily hijack your account.",
-        "H": "You are crystal clear about your own temperament, desires, and bottom line."
+        "L": "Your internal monologue is just TV static. You spend too much time buffering on 'who am I'.",
+        "M": "You generally know your vibe, but occasionally your emotions completely hijack your account.",
+        "H": "You are hyper-aware of your own red flags, desires, and absolute limits."
       },
       "S3": {
-        "L": "You prioritize comfort and safety. There is no need to run life on sprint mode every day.",
-        "M": "You want to advance, but also want to slack off. Your core values frequently hold internal debates.",
-        "H": "You are easily propelled forward by goals, growth, or a certain significant belief."
+        "L": "You prioritize staying in your cozy comfort zone. Grinding 24/7 is not in your firmware.",
+        "M": "You want to level up, but also want to stay in bed. Your inner ambitions are constantly fighting.",
+        "H": "You are heavily driven by a specific mission, goal, or sheer force of will."
       },
       "E1": {
-        "L": "Your relationship alarm is highly sensitive; even being 'left on read' makes you imagine a tragic finale.",
-        "M": "Half trust, half caution. In relationships, you are always playing a mental tug-of-war.",
-        "H": "You prefer trusting the relationship itself and won’t be easily frightened by minor rustling."
+        "L": "Your abandonment alarm is broken. Being left on read sends you into an immediate doom spiral.",
+        "M": "You trust people, but keep one hand on the eject button. Constantly playing mental tug-of-war.",
+        "H": "Secure attachment unlocked. You trust the process and don't panic over minor turbulence."
       },
       "E2": {
-        "L": "Your emotional investment is highly restrained. It’s not that your heart’s door is closed; the security is just too strict.",
-        "M": "You will invest, but you leave yourself an out. You won’t go all-in.",
-        "H": "Once you commit, you get dead serious. You give your emotions and energy fully."
+        "L": "Your emotional firewall is military-grade. It's not that you can't love, you just refuse to risk it.",
+        "M": "You catch feelings, but you hedge your bets. You refuse to go all-in on anyone.",
+        "H": "When you lock in, you lock in hard. You dump all your stats into loyalty and energy."
       },
       "E3": {
-        "L": "You are easily clingy and enjoy being clung to. The temperature of the relationship matters greatly.",
-        "M": "You desire both intimacy and independence. You are the adjustable dependency type.",
-        "H": "A sense of space is crucial. No matter how deep the love, you must reserve a plot of land for yourself."
+        "L": "You love clinging to people and being clung to. You run cold without constant emotional validation.",
+        "M": "You want deep intimacy but also your alone time. You have an adjustable clinginess slider.",
+        "H": "Personal space is your religion. Even if you love them, they need to stay off your grass."
       },
       "A1": {
-        "L": "You view the world through a defensive filter. You doubt first, then approach.",
-        "M": "You aren’t naive, nor completely cynical. Observation is your instinct.",
-        "H": "You are willing to believe in humanity and benevolence. You don’t quickly sentence the world to death."
+        "L": "You view the world with a permanent cynical filter. You assume it's a scam until proven otherwise.",
+        "M": "You aren't a naive rookie, but not a full doomer either. You wait and spectate before judging.",
+        "H": "You actually believe humans are decent. You don't immediately assume the worst in people."
       },
       "A2": {
-        "L": "You bypass rules whenever you can. Comfort and freedom usually take precedence.",
-        "M": "You follow when necessary, but you don’t stubbornly hold onto rules when flexibility is needed.",
-        "H": "You have a strong sense of order. You prefer following procedure over impromptu explosions."
+        "L": "Rules are just suggestions to you. You prioritize vibes, comfort, and ultimate freedom.",
+        "M": "You play by the book when necessary, but you don't mind exploiting a glitch or two.",
+        "H": "You worship structure. You prefer sticking to the patch notes over improvising chaos."
       },
       "A3": {
-        "L": "Your sense of meaning is rather low; you easily feel that many things are just going through the motions.",
-        "M": "Occasionally you have goals, occasionally you just want to rot. Your outlook on life is half idle.",
-        "H": "You have strong direction when doing things. You generally know where you’re heading."
+        "L": "Nihilism is your baseline. You frequently feel like life is just an unskippable cutscene.",
+        "M": "Sometimes you're super motivated, sometimes you just wanna rot in bed. Life outlook: 50%.",
+        "H": "You actually have a waypoint set on your map. You know exactly what direction you are walking."
       },
       "Ac1": {
-        "L": "Before acting, you ensure you won’t crash. Your hazard-avoidance system boots up faster than your ambition.",
-        "M": "Sometimes you want to win, sometimes you just want zero trouble. Your motivation is highly mixed.",
-        "H": "You are easily ignited by outcomes, growth, and the sense of pushing things forward."
+        "L": "Your hazard-avoidance system kicks in before your ambition. Playing it safe is your meta.",
+        "M": "You want the loot, but you hate dealing with the boss mechanics. Very mixed motivations.",
+        "H": "You are completely fueled by results, EXP gains, and the adrenaline of pushing forward."
       },
       "Ac2": {
-        "L": "You tend to circle around before making a decision. Internal brain meetings frequently run overtime.",
-        "M": "You ponder, but you won’t crash your system over it. This is standard hesitation.",
-        "H": "You make decisions rapidly. Once the gavel falls, you dislike looking back and dilly-dallying."
+        "L": "Your brain lags every time you make a choice. The internal debate tournament takes hours.",
+        "M": "You think things through, but don't blue-screen over it. Just standard hesitation.",
+        "H": "You snap-pick your decisions. Once you lock in, you absolutely refuse to look back."
       },
       "Ac3": {
-        "L": "Your execution skills share a deep bond with deadlines. The later it gets, the closer you are to awakening.",
-        "M": "You can execute, but your state depends on timing. Sometimes solid, sometimes slacking.",
-        "H": "You have a strong drive to push things forward. Leaving things unresolved feels like a thorn in your heart."
+        "L": "Your productivity is spiritually bound to deadlines. You only awaken at the 11th hour.",
+        "M": "You get things done, but it depends entirely on the vibe. Sometimes clutch, sometimes afk.",
+        "H": "You hate leaving quests unfinished. Having pending tasks deals passive damage to your soul."
       },
       "So1": {
-        "L": "Your social engine is slow to warm up. Taking the initiative usually requires a half-day mental charge.",
-        "M": "If people approach, you engage; if they don’t, you don’t force it. Average social elasticity.",
-        "H": "You are more willing to actively break the ice and aren’t afraid of sticking out in a crowd."
+        "L": "Your social battery charges at 1%. Initiating a conversation takes immense mental preparation.",
+        "M": "If people pull up, you chat. If they don't, you don't care. Mid-tier social elasticity.",
+        "H": "You love breaking the ice and carrying the lobby. You aren't afraid of the spotlight."
       },
       "So2": {
-        "L": "In relationships, you seek closeness and fusion. Once familiar, you easily bring people into your inner circle.",
-        "M": "You want intimacy but also want breathing room. Your boundary sensitivity adjusts dynamically.",
-        "H": "Your boundary sense is strong. If people get too close, you instinctively take half a step back."
+        "L": "You love merging lives with people. Once they pass the vibe check, they are family.",
+        "M": "You like intimacy but enforce breathing room. Your boundaries dynamically scale.",
+        "H": "Your invisible electric fence is active. If people step too close, you aggressively backstep."
       },
       "So3": {
-        "L": "Your expressions are very direct. If you feel a certain way, you rarely beat around the bush.",
-        "M": "You read the room before speaking, usually leaving a balance of authenticity and polite decorum.",
-        "H": "You flawlessly switch personas for different scenarios; your authenticity is distributed in layers."
+        "L": "You have zero filter. Whatever chaotic thought renders in your brain comes straight out your mouth.",
+        "M": "You read the room before speaking. A perfectly balanced mix of being real and being polite.",
+        "H": "You code-switch flawlessly. You have different curated personas for every single Discord server."
       }
     };
-    const dimensionOrder = ['S1', 'S2', 'S3', 'E1', 'E2', 'E3', 'A1', 'A2', 'A3', 'Ac1', 'Ac2', 'Ac3', 'So1', 'So2', 'So3'];
 
+    const dimensionOrder = ['S1', 'S2', 'S3', 'E1', 'E2', 'E3', 'A1', 'A2', 'A3', 'Ac1', 'Ac2', 'Ac3', 'So1', 'So2', 'So3'];
     const DRUNK_TRIGGER_QUESTION_ID = 'drink_gate_q2';
 
     const app = {
@@ -2111,7 +1994,6 @@
       test: document.getElementById('test'),
       result: document.getElementById('result')
     };
-
 
     function showScreen(name) {
       Object.entries(screens).forEach(([key, el]) => {
@@ -2139,8 +2021,8 @@
     }
 
     function getQuestionMetaLabel(q) {
-      if (q.special) return 'Hidden Branch';
-      return app.previewMode ? dimensionMeta[q.dim]?.name : 'Dimension Hidden';
+      if (q.special) return 'Hidden Check';
+      return app.previewMode ? dimensionMeta[q.dim]?.name : 'Hidden Variable';
     }
 
     function renderSingleQuestion() {
@@ -2224,7 +2106,6 @@
       return pattern.replace(/-/g, '').split('');
     }
 
-
     function getDrunkTriggered() {
       return app.answers[DRUNK_TRIGGER_QUESTION_ID] === 2;
     }
@@ -2264,24 +2145,24 @@
       const drunkTriggered = getDrunkTriggered();
 
       let finalType;
-      let modeKicker = 'Your Core Type';
-      let badge = `Match ${bestNormal.similarity}% · Exact Hits ${bestNormal.exact}/15 Dims`;
-      let sub = 'High dimension match. The current result can be considered your primary personality portrait.';
+      let modeKicker = 'Your Core Archetype';
+      let badge = `${bestNormal.similarity}% Match · ${bestNormal.exact}/15 Stats Hit`;
+      let sub = 'High algorithm confidence. This is your primary internet personality.';
       let special = false;
       let secondaryType = null;
 
       if (drunkTriggered) {
         finalType = TYPE_LIBRARY.DRUNK;
         secondaryType = bestNormal;
-        modeKicker = 'Hidden Personality Activated';
-        badge = 'Match 100% · Alcohol Anomaly Factor Has Taken Over';
-        sub = 'Excessive ethanol affinity detected. System has bypassed standard personality evaluation.';
+        modeKicker = 'Hidden Trigger Activated';
+        badge = '100% Match · Ethanol Protocol Engaged';
+        sub = 'Excessive alcohol dependency detected. Standard matrix overridden.';
         special = true;
       } else if (bestNormal.similarity < 60) {
         finalType = TYPE_LIBRARY.HHHH;
-        modeKicker = 'System Forced Fallback';
-        badge = `Highest match in standard pool is only ${bestNormal.similarity}%`;
-        sub = 'The standard personality pool went on strike against your brain circuits, so the system forcefully assigned you to HHHH.';
+        modeKicker = 'System Fallback Triggered';
+        badge = `Best standard match is barely ${bestNormal.similarity}%`;
+        sub = 'Your brain circuits completely confused the AI. You have been forced into the Troll category.';
         special = true;
       } else {
         finalType = bestNormal;
@@ -2323,21 +2204,21 @@
       const type = result.finalType;
 
       document.getElementById('resultModeKicker').textContent = result.modeKicker;
-      document.getElementById('resultTypeName').textContent = `${type.code}（${type.cn}）`;
+      document.getElementById('resultTypeName').textContent = `${type.code} (${type.cn})`;
       document.getElementById('matchBadge').textContent = result.badge;
       document.getElementById('resultTypeSub').textContent = result.sub;
       document.getElementById('resultDesc').textContent = type.desc;
       document.getElementById('posterCaption').textContent = type.intro;
       document.getElementById('funNote').textContent = result.special
-        ? 'This test is strictly for fun. The hidden personalities and fallback types are purely pranks planted by the author. Please do not use this as psychological, medical, physiognomic, or supernatural reference.'
-        : 'This test is strictly for fun. Do not use it as a medical diagnosis, interview benchmark, dating guide, breakup excuse, seance ritual, fortune telling, or final verdict. Laugh all you want, but don’t take it seriously.';
+        ? 'Disclaimer: Hidden types and fallbacks are literally troll mechanics implemented by the dev. Do not use this as actual diagnostic or psychiatric evidence. Stay toxic.'
+        : 'Disclaimer: This quiz is for entertainment and roasting. Do not use it for diagnosing illnesses, swiping right on Tinder, breaking up, or justifying your bad behavior.';
 
       const posterBox = document.getElementById('posterBox');
       const posterImage = document.getElementById('posterImage');
       const imageSrc = TYPE_IMAGES[type.code];
       if (imageSrc) {
         posterImage.src = imageSrc;
-        posterImage.alt = `${type.code}（${type.cn}）`;
+        posterImage.alt = `${type.code} (${type.cn})`;
         posterBox.classList.remove('no-image');
       } else {
         posterImage.removeAttribute('src');
@@ -2366,7 +2247,7 @@
 
     function shareResult(platform) {
       const url = window.location.href;
-      const text = "Discover your unique personality type with SBTI! Check out my result!";
+      const text = "MBTI is dead. I just took the SBTI personality test and got absolutely roasted. Find out what internet archetype you are!";
 
       switch (platform) {
         case 'twitter':
@@ -2380,7 +2261,7 @@
           break;
         case 'copy':
           navigator.clipboard.writeText(url).then(() => {
-            alert('Link copied to clipboard!');
+            alert('Link copied to clipboard! Paste it anywhere to flex.');
           });
           break;
       }
@@ -2389,11 +2270,6 @@
     document.getElementById('startBtn').addEventListener('click', () => startTest(false));
     document.getElementById('restartBtn').addEventListener('click', () => startTest(false));
     document.getElementById('toTopBtn').addEventListener('click', () => showScreen('intro'));
-    document.getElementById('shareBtn').addEventListener('click', () => {
-      const urlToShare = encodeURIComponent(window.location.href);
-      const titleToShare = encodeURIComponent('Check out the SBTI Personality Test! Discover your unique personality type!');
-      window.open(`https://twitter.com/intent/tweet?url=${urlToShare}&text=${titleToShare}`, '_blank');
-    });
   </script>
 
 </body>
